@@ -30,7 +30,7 @@ public class BaseClass  {
 	
 	@BeforeSuite
 	public void Setupsuite() throws IOException {
-		Reporter.log("Setting up reports and Test is getting ready ", true);
+	Reporter.log("Setting up reports and Test is getting ready ", true);
 		
 	excel= new ExcelData();
 	config=new ConfigDataProvider();
@@ -43,17 +43,20 @@ public class BaseClass  {
 	
 	}
 	
+//	@Parameters({"browser","urlToBeTested"})
 	@BeforeMethod
+	//public void setup( String browser, String url) throws InterruptedException{
 	public void setup() throws InterruptedException{
-		
+	
 	Reporter.log("Tring to start browser and application is ready ", true);
 
     driver = BrowserFactory.startApplication(driver, config.getBrowser(), config.getURL());
+ //   driver = BrowserFactory.startApplication(driver, browser, url);
+
 	   
     System.out.println(driver.getTitle());
     
 	Reporter.log("Browser and application is running ", true);
-
     
 		
 	}

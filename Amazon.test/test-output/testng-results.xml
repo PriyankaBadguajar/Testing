@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="1" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Setting up reports and Test is getting ready ]]>
@@ -16,16 +16,13 @@
     <line>
       <![CDATA[Test is about to end ]]>
     </line>
-    <line>
-      <![CDATA[Tring to start browser and application is ready ]]>
-    </line>
   </reporter-output>
-  <suite name="Amazon test" duration-ms="22724" started-at="2020-08-17T11:09:54Z" finished-at="2020-08-17T11:10:17Z">
+  <suite name="Default suite" duration-ms="22011" started-at="2020-08-18T11:36:20Z" finished-at="2020-08-18T11:36:42Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="22724" started-at="2020-08-17T11:09:54Z" finished-at="2020-08-17T11:10:17Z">
+    <test name="Default test" duration-ms="22011" started-at="2020-08-18T11:36:20Z" finished-at="2020-08-18T11:36:42Z">
       <class name="com.testcases.TC_LoginTest_001">
-        <test-method status="PASS" signature="Setupsuite()[pri:0, instance:com.testcases.TC_LoginTest_001@1d371b2d]" name="Setupsuite" is-config="true" duration-ms="556" started-at="2020-08-17T11:09:54Z" finished-at="2020-08-17T11:09:54Z">
+        <test-method status="PASS" signature="Setupsuite()[pri:0, instance:com.testcases.TC_LoginTest_001@28ac3dc3]" name="Setupsuite" is-config="true" duration-ms="685" started-at="2020-08-18T11:36:20Z" finished-at="2020-08-18T11:36:20Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and Test is getting ready ]]>
@@ -35,7 +32,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Setupsuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.TC_LoginTest_001@1d371b2d]" name="setup" is-config="true" duration-ms="9260" started-at="2020-08-17T11:09:54Z" finished-at="2020-08-17T11:10:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.TC_LoginTest_001@28ac3dc3]" name="setup" is-config="true" duration-ms="8317" started-at="2020-08-18T11:36:20Z" finished-at="2020-08-18T11:36:29Z">
           <reporter-output>
             <line>
               <![CDATA[Tring to start browser and application is ready ]]>
@@ -45,15 +42,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginApps()[pri:0, instance:com.testcases.TC_LoginTest_001@1d371b2d]" name="loginApps" duration-ms="11249" started-at="2020-08-17T11:10:04Z" finished-at="2020-08-17T11:10:15Z">
+        <test-method status="PASS" signature="loginApps()[pri:0, instance:com.testcases.TC_LoginTest_001@28ac3dc3]" name="loginApps" duration-ms="11339" started-at="2020-08-18T11:36:29Z" finished-at="2020-08-18T11:36:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApps -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_LoginTest_001@1d371b2d]" name="teardownMethod" is-config="true" duration-ms="1510" started-at="2020-08-17T11:10:15Z" finished-at="2020-08-17T11:10:16Z">
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_LoginTest_001@28ac3dc3]" name="teardownMethod" is-config="true" duration-ms="1671" started-at="2020-08-18T11:36:40Z" finished-at="2020-08-18T11:36:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApps status=SUCCESS method=TC_LoginTest_001.loginApps()[pri:0, instance:com.testcases.TC_LoginTest_001@1d371b2d] output={null}]]]>
+                <![CDATA[[TestResult name=loginApps status=SUCCESS method=TC_LoginTest_001.loginApps()[pri:0, instance:com.testcases.TC_LoginTest_001@28ac3dc3] output={null}]]]>
               </value>
             </param>
           </params>
@@ -63,102 +60,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.TC_LoginTest_001@1d371b2d]" name="teardown" is-config="true" duration-ms="670" started-at="2020-08-17T11:10:16Z" finished-at="2020-08-17T11:10:17Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.TC_LoginTest_001@28ac3dc3]" name="teardown" is-config="true" duration-ms="666" started-at="2020-08-18T11:36:42Z" finished-at="2020-08-18T11:36:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.testcases.TC_LoginTest_001 -->
-      <class name="com.testcases.TC_SearchProduct_002">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.testcases.TC_SearchProduct_002@543c6f6d]" name="setup" is-config="true" duration-ms="1" started-at="2020-08-17T11:10:17Z" finished-at="2020-08-17T11:10:17Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.pages.BaseClass.setup(BaseClass.java:51)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Tring to start browser and application is ready ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="SearchItems()[pri:0, instance:com.testcases.TC_SearchProduct_002@543c6f6d]" name="SearchItems" duration-ms="0" started-at="2020-08-17T11:10:17Z" finished-at="2020-08-17T11:10:17Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.pages.BaseClass.setup(BaseClass.java:51)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchItems -->
-        <test-method status="SKIP" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_SearchProduct_002@543c6f6d]" name="teardownMethod" is-config="true" duration-ms="0" started-at="2020-08-17T11:10:17Z" finished-at="2020-08-17T11:10:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardownMethod -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.testcases.TC_SearchProduct_002@543c6f6d]" name="teardown" is-config="true" duration-ms="0" started-at="2020-08-17T11:10:17Z" finished-at="2020-08-17T11:10:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.testcases.TC_SearchProduct_002 -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Amazon test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

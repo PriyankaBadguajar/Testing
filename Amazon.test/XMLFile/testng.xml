@@ -4,7 +4,7 @@
 
   <test  name="Test1">
   
-  <parameter> </parameter>
+ 
     <classes>
       <class name="com.testcases.TC_LoginTest_001"/>
       <class name="com.testcases.TC_SearchProduct_002"/>
