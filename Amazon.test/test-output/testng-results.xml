@@ -17,12 +17,12 @@
       <![CDATA[Test is about to end ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9811" started-at="2020-08-20T02:28:45Z" finished-at="2020-08-20T02:28:54Z">
+  <suite name="Default suite" duration-ms="11251" started-at="2020-08-21T15:57:27Z" finished-at="2020-08-21T15:57:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9811" started-at="2020-08-20T02:28:45Z" finished-at="2020-08-20T02:28:54Z">
+    <test name="Default test" duration-ms="11251" started-at="2020-08-21T15:57:27Z" finished-at="2020-08-21T15:57:39Z">
       <class name="com.testcases.TC_CartTest_003">
-        <test-method status="PASS" signature="Setupsuite()[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="Setupsuite" is-config="true" duration-ms="654" started-at="2020-08-20T02:28:44Z" finished-at="2020-08-20T02:28:45Z">
+        <test-method status="PASS" signature="Setupsuite()[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="Setupsuite" is-config="true" duration-ms="1094" started-at="2020-08-21T15:57:26Z" finished-at="2020-08-21T15:57:27Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and Test is getting ready ]]>
@@ -32,7 +32,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Setupsuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="setup" is-config="true" duration-ms="9141" started-at="2020-08-20T02:28:45Z" finished-at="2020-08-20T02:28:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="setup" is-config="true" duration-ms="9628" started-at="2020-08-21T15:57:27Z" finished-at="2020-08-21T15:57:37Z">
           <reporter-output>
             <line>
               <![CDATA[Tring to start browser and application is ready ]]>
@@ -42,11 +42,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CartPaymentProcess()[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="CartPaymentProcess" duration-ms="21" started-at="2020-08-20T02:28:54Z" finished-at="2020-08-20T02:28:54Z">
+        <test-method status="PASS" signature="CartPaymentProcess()[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="CartPaymentProcess" duration-ms="50" started-at="2020-08-21T15:57:37Z" finished-at="2020-08-21T15:57:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartPaymentProcess -->
-        <test-method status="FAIL" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="teardownMethod" is-config="true" duration-ms="634" started-at="2020-08-20T02:28:54Z" finished-at="2020-08-20T02:28:54Z">
+        <test-method status="FAIL" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="teardownMethod" is-config="true" duration-ms="1547" started-at="2020-08-21T15:57:37Z" finished-at="2020-08-21T15:57:39Z">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="teardown" is-config="true" duration-ms="0" started-at="2020-08-20T02:28:54Z" finished-at="2020-08-20T02:28:54Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.testcases.TC_CartTest_003@28ac3dc3]" name="teardown" is-config="true" duration-ms="0" started-at="2020-08-21T15:57:39Z" finished-at="2020-08-21T15:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
