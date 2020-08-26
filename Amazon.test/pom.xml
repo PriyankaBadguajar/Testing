@@ -113,7 +113,11 @@
           <suiteXmlFiles>
             <suiteXmlFile>XMLFile/testng.xml</suiteXmlFile>
            </suiteXmlFiles>
-          </configuration>
+           <systemPropertyVariables>
+           <executionbrowser>${browser}</executionbrowser>
+           <urlapps>${urlToBeTested}</urlapps>
+           </systemPropertyVariables>
+            </configuration>
       </plugin>
    
 </plugins>

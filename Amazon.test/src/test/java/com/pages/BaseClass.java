@@ -8,6 +8,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
@@ -36,26 +37,26 @@ public class BaseClass  {
 		
 	excel= new ExcelData();
 	config=new ConfigDataProvider();
+	
 	ExtentHtmlReporter extent= new ExtentHtmlReporter(new File("./Reports/AmazonReport _ "+Helper.getCurrentTimeDate() +".html"));
 	reports = new ExtentReports();
 	reports.attachReporter(extent);
 	
-	Reporter.log("Setting done- Test is started ", true);
-
-	
+	Reporter.log("Setting done- Test can be started ", true);
 	}
 	
 	
-	@BeforeMethod
-	@Parameters({"browser","urlToBeTested"})
+	//@Parameters({"browser"})
+	@BeforeClass
 	
-	//public void setup( String browser, String url) throws InterruptedException{
+	
+//	public void setup( String browser) throws InterruptedException{
 	public void setup() throws InterruptedException{
 	
 	Reporter.log("Tring to start browser and application is ready ", true);
 
     driver = BrowserFactory.startApplication(driver,config.getBrowser(), config.getURL());
- //  driver = BrowserFactory.startApplication(driver, browser, url);
+   //driver = BrowserFactory.startApplication(driver, browser, config.getURL() );
 
 	   
     System.out.println(driver.getTitle());
@@ -66,7 +67,7 @@ public class BaseClass  {
 	}
 	@AfterClass
 	public void teardown() {
-		BrowserFactory.teardown(driver);
+		BrowserFactory.quitBrowser(driver);
 	}
 	
 	@AfterMethod

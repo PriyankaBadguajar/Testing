@@ -7,12 +7,9 @@ import org.testng.annotations.Test;
 
 import com.pages.BaseClass;
 import com.pages.LoginpageAmazon;
-import com.utility.ExcelData;
-import com.utility.Helper;
 
-public class TC_LoginTest_001 extends BaseClass{
 
-	
+public class TC_LoginPage_001 extends BaseClass {
 	@Test
 	public void loginApps() throws InterruptedException, IOException 
 	{
@@ -24,4 +21,5 @@ public class TC_LoginTest_001 extends BaseClass{
 		 
 		
      }	
+
 }

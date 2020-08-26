@@ -16,7 +16,7 @@ public class TC_SearchProduct_002 extends BaseClass {
 		SearchPage searchpage=PageFactory.initElements(driver, SearchPage.class);
 		searchpage.SearchInAmazon("Smart Watch");
 		
-		BrowserFactory.teardown(driver);
+		BrowserFactory.quitBrowser(driver);
 		
 		}
 	

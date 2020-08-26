@@ -14,7 +14,7 @@ import com.beust.jcommander.Parameter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BrowserFactory {
-	@Parameter()
+	//@Parameter()
 	@BeforeMethod
 	public static WebDriver startApplication(WebDriver driver, String browsername,String URL)
 	{
@@ -52,7 +52,7 @@ public class BrowserFactory {
 		
 	}
 	@AfterMethod
-	public static void teardown(WebDriver driver)
+	public static void quitBrowser(WebDriver driver)
 	{
 		driver.quit();
 	}
