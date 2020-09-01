@@ -12,6 +12,24 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.testcases.TC_LoginPage_001 -->
+      <class name="com.testcases.TC_SearchProduct_002">
+        <methods>
+          <include name="Setupsuite"/>
+          <include name="SearchItems"/>
+          <include name="setup"/>
+          <include name="teardownMethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testcases.TC_SearchProduct_002 -->
+      <class name="com.testcases.TC_CartTest_003">
+        <methods>
+          <include name="Setupsuite"/>
+          <include name="CartPaymentProcess"/>
+          <include name="setup"/>
+          <include name="teardownMethod"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testcases.TC_CartTest_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

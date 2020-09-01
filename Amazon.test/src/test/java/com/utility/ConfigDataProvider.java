@@ -16,9 +16,7 @@ public class ConfigDataProvider {
 		pro.load(file);
 		
 	}
-	
-
-   public String getDataFromConfig(String keyToSearch) {
+	  public String getDataFromConfig(String keyToSearch) {
 	   return pro.getProperty(keyToSearch);
    }
    

@@ -23,16 +23,16 @@
       <![CDATA[Tring to start browser and application is ready ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="21186" started-at="2020-08-26T09:39:21Z" finished-at="2020-08-26T09:39:42Z">
+  <suite name="Suite" duration-ms="25320" started-at="2020-09-01T11:52:32Z" finished-at="2020-09-01T11:52:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21186" started-at="2020-08-26T09:39:21Z" finished-at="2020-08-26T09:39:42Z">
+    <test name="Test" duration-ms="25320" started-at="2020-09-01T11:52:32Z" finished-at="2020-09-01T11:52:58Z">
       <class name="com.testcases.TC_CartTest_003">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.testcases.TC_CartTest_003@1d371b2d]" name="setup" is-config="true" duration-ms="0" started-at="2020-08-26T09:39:42Z" finished-at="2020-08-26T09:39:42Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.testcases.TC_CartTest_003@4fb64261]" name="setup" is-config="true" duration-ms="4" started-at="2020-09-01T11:52:57Z" finished-at="2020-09-01T11:52:57Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.pages.BaseClass.setup(BaseClass.java:58)
+at com.pages.BaseClass.setup(BaseClass.java:56)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -68,11 +68,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="CartPaymentProcess()[pri:0, instance:com.testcases.TC_CartTest_003@1d371b2d]" name="CartPaymentProcess" duration-ms="0" started-at="2020-08-26T09:39:42Z" finished-at="2020-08-26T09:39:42Z">
+        <test-method status="SKIP" signature="CartPaymentProcess()[pri:0, instance:com.testcases.TC_CartTest_003@4fb64261]" name="CartPaymentProcess" duration-ms="0" started-at="2020-09-01T11:52:58Z" finished-at="2020-09-01T11:52:58Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.pages.BaseClass.setup(BaseClass.java:58)
+at com.pages.BaseClass.setup(BaseClass.java:56)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,17 +105,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CartPaymentProcess -->
-        <test-method status="SKIP" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_CartTest_003@1d371b2d]" name="teardownMethod" is-config="true" duration-ms="0" started-at="2020-08-26T09:39:42Z" finished-at="2020-08-26T09:39:42Z">
+        <test-method status="SKIP" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_CartTest_003@4fb64261]" name="teardownMethod" is-config="true" duration-ms="0" started-at="2020-09-01T11:52:58Z" finished-at="2020-09-01T11:52:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.testcases.TC_CartTest_003@1d371b2d]" name="teardown" is-config="true" duration-ms="0" started-at="2020-08-26T09:39:42Z" finished-at="2020-08-26T09:39:42Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.testcases.TC_CartTest_003@4fb64261]" name="teardown" is-config="true" duration-ms="0" started-at="2020-09-01T11:52:58Z" finished-at="2020-09-01T11:52:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.testcases.TC_CartTest_003 -->
       <class name="com.testcases.TC_LoginPage_001">
-        <test-method status="PASS" signature="Setupsuite()[pri:0, instance:com.testcases.TC_LoginPage_001@4e718207]" name="Setupsuite" is-config="true" duration-ms="576" started-at="2020-08-26T09:39:20Z" finished-at="2020-08-26T09:39:21Z">
+        <test-method status="PASS" signature="Setupsuite()[pri:0, instance:com.testcases.TC_LoginPage_001@18bf3d14]" name="Setupsuite" is-config="true" duration-ms="1031" started-at="2020-09-01T11:52:31Z" finished-at="2020-09-01T11:52:32Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and Test is getting ready ]]>
@@ -125,7 +125,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- Setupsuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.TC_LoginPage_001@4e718207]" name="setup" is-config="true" duration-ms="8934" started-at="2020-08-26T09:39:21Z" finished-at="2020-08-26T09:39:30Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testcases.TC_LoginPage_001@18bf3d14]" name="setup" is-config="true" duration-ms="10906" started-at="2020-09-01T11:52:32Z" finished-at="2020-09-01T11:52:43Z">
           <reporter-output>
             <line>
               <![CDATA[Tring to start browser and application is ready ]]>
@@ -135,15 +135,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginApps()[pri:0, instance:com.testcases.TC_LoginPage_001@4e718207]" name="loginApps" duration-ms="10762" started-at="2020-08-26T09:39:30Z" finished-at="2020-08-26T09:39:41Z">
+        <test-method status="PASS" signature="loginApps()[pri:0, instance:com.testcases.TC_LoginPage_001@18bf3d14]" name="loginApps" duration-ms="9598" started-at="2020-09-01T11:52:43Z" finished-at="2020-09-01T11:52:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApps -->
-        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_LoginPage_001@4e718207]" name="teardownMethod" is-config="true" duration-ms="842" started-at="2020-08-26T09:39:41Z" finished-at="2020-08-26T09:39:41Z">
+        <test-method status="PASS" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_LoginPage_001@18bf3d14]" name="teardownMethod" is-config="true" duration-ms="4044" started-at="2020-09-01T11:52:53Z" finished-at="2020-09-01T11:52:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApps status=SUCCESS method=TC_LoginPage_001.loginApps()[pri:0, instance:com.testcases.TC_LoginPage_001@4e718207] output={null}]]]>
+                <![CDATA[[TestResult name=loginApps status=SUCCESS method=TC_LoginPage_001.loginApps()[pri:0, instance:com.testcases.TC_LoginPage_001@18bf3d14] output={null}]]]>
               </value>
             </param>
           </params>
@@ -153,17 +153,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.TC_LoginPage_001@4e718207]" name="teardown" is-config="true" duration-ms="623" started-at="2020-08-26T09:39:41Z" finished-at="2020-08-26T09:39:42Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testcases.TC_LoginPage_001@18bf3d14]" name="teardown" is-config="true" duration-ms="689" started-at="2020-09-01T11:52:57Z" finished-at="2020-09-01T11:52:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.testcases.TC_LoginPage_001 -->
       <class name="com.testcases.TC_SearchProduct_002">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:com.testcases.TC_SearchProduct_002@543c6f6d]" name="setup" is-config="true" duration-ms="0" started-at="2020-08-26T09:39:42Z" finished-at="2020-08-26T09:39:42Z">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:com.testcases.TC_SearchProduct_002@42607a4f]" name="setup" is-config="true" duration-ms="1" started-at="2020-09-01T11:52:58Z" finished-at="2020-09-01T11:52:58Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.pages.BaseClass.setup(BaseClass.java:58)
+at com.pages.BaseClass.setup(BaseClass.java:56)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -199,11 +199,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="SearchItems()[pri:0, instance:com.testcases.TC_SearchProduct_002@543c6f6d]" name="SearchItems" duration-ms="0" started-at="2020-08-26T09:39:42Z" finished-at="2020-08-26T09:39:42Z">
+        <test-method status="SKIP" signature="SearchItems()[pri:0, instance:com.testcases.TC_SearchProduct_002@42607a4f]" name="SearchItems" duration-ms="0" started-at="2020-09-01T11:52:58Z" finished-at="2020-09-01T11:52:58Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at com.pages.BaseClass.setup(BaseClass.java:58)
+at com.pages.BaseClass.setup(BaseClass.java:56)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -236,11 +236,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchItems -->
-        <test-method status="SKIP" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_SearchProduct_002@543c6f6d]" name="teardownMethod" is-config="true" duration-ms="0" started-at="2020-08-26T09:39:42Z" finished-at="2020-08-26T09:39:42Z">
+        <test-method status="SKIP" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.testcases.TC_SearchProduct_002@42607a4f]" name="teardownMethod" is-config="true" duration-ms="0" started-at="2020-09-01T11:52:58Z" finished-at="2020-09-01T11:52:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.testcases.TC_SearchProduct_002@543c6f6d]" name="teardown" is-config="true" duration-ms="0" started-at="2020-08-26T09:39:42Z" finished-at="2020-08-26T09:39:42Z">
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:com.testcases.TC_SearchProduct_002@42607a4f]" name="teardown" is-config="true" duration-ms="0" started-at="2020-09-01T11:52:58Z" finished-at="2020-09-01T11:52:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
