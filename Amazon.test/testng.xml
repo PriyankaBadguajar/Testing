@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-    <class name="com.testcases.TC_LoginPage_001"/>
       <class name="com.testcases.TC_CartTest_003"/>
+      <class name="com.testcases.TC_LoginPage_001"/>
       <class name="com.testcases.TC_SearchProduct_002"/>
     </classes>
   </test> <!-- Test -->

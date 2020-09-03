@@ -3,15 +3,6 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testcases.TC_LoginPage_001">
-        <methods>
-          <include name="loginApps"/>
-          <include name="Setupsuite"/>
-          <include name="setup"/>
-          <include name="teardownMethod"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.testcases.TC_LoginPage_001 -->
       <class name="com.testcases.TC_SearchProduct_002">
         <methods>
           <include name="Setupsuite"/>
@@ -21,15 +12,6 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.testcases.TC_SearchProduct_002 -->
-      <class name="com.testcases.TC_CartTest_003">
-        <methods>
-          <include name="Setupsuite"/>
-          <include name="CartPaymentProcess"/>
-          <include name="setup"/>
-          <include name="teardownMethod"/>
-          <include name="teardown"/>
-        </methods>
-      </class> <!-- com.testcases.TC_CartTest_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

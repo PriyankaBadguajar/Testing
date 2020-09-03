@@ -12,15 +12,15 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.testcases.TC_SearchProduct_002 -->
-      <class name="com.testcases.TC_CartTest_003">
+      <class name="com.testcases.TC_LoginPage_001">
         <methods>
+          <include name="loginApps"/>
           <include name="Setupsuite"/>
-          <include name="CartPaymentProcess"/>
           <include name="setup"/>
           <include name="teardownMethod"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.testcases.TC_CartTest_003 -->
+      </class> <!-- com.testcases.TC_LoginPage_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
