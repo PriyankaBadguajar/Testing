@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginpageAmazon extends BaseClass{
+public class LoginpageAmazon extends Base{
 WebDriver driver;
 	
 	public LoginpageAmazon(WebDriver ldriver)

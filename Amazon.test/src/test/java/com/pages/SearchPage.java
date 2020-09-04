@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SearchPage extends BaseClass {
+public class SearchPage extends Base {
    WebDriver driver;
 	
 	public SearchPage(WebDriver ldriver) //constructor 

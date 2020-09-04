@@ -7,9 +7,9 @@ import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import com.pages.BaseClass;
+import com.pages.Base;
 
-public class ExcelData extends BaseClass {
+public class ExcelData extends Base {
 	XSSFWorkbook wb;
 	public ExcelData()  {
 		
